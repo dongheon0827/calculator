@@ -3,7 +3,7 @@ package org.example
 fun main() {
     val name = "Kotlin"
 
-    println("Hello, " + name + "!")
+    println("Hello, $name!")
 
     for (i in 1..5) {
 
