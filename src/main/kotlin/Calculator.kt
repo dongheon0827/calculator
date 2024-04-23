@@ -1,6 +1,5 @@
 package org.example
 
-class Calculator
-{
-    fun operation(operator: AbstractOperator, num1:Double, num2:Double):Double = operator.calc(num1, num2)
+class Calculator {
+    fun operation(num1: Double, num2: Double, operator: AbstractOperator): Double = operator.calc(num1, num2)
 }

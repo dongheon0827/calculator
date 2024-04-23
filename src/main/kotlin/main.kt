@@ -22,6 +22,6 @@ fun main() {
     }
 
     val calc = Calculator()
-    val result = calc.operation(calcOperator, num1, num2)
+    val result = calc.operation(num1, num2, calcOperator)
     println("$num1 $operator $num2 의 값은 $result 입니다")
 }
